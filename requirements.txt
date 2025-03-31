@@ -6,3 +6,9 @@ tqdm>=4.65.0
 azure-storage-blob>=12.14.0
 azure-search-documents>=11.4.0
 openai>=1.2.0  # Optional: for generating embeddings
+
+# Dependencies for Azure AI Agent MCP Server
+mcp-server>=0.2.0  # Model Context Protocol server
+azure-ai-projects>=1.0.0  # Azure AI Agent Service SDK
+azure-identity>=1.15.0  # Azure authentication
+aiohttp>=3.9.1  # Async HTTP client/server
