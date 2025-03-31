@@ -1,0 +1,32 @@
+2025-03-30 20:32:30,800 - __main__ - INFO - Starting OpenAI API Specification Processor
+2025-03-30 20:32:30,800 - __main__ - INFO - Creating/updating Azure AI Search index 'openai-api-spec-index'
+2025-03-30 20:32:30,806 - azure.search.documents.indexes._generated._serialization - WARNING - parameters is not a known attribute of class <class 'azure.search.documents.indexes._generated.models._models_py3.VectorSearchAlgorithmConfiguration'> and will be ignored
+2025-03-30 20:32:30,806 - azure.search.documents.indexes._generated._serialization - WARNING - semantic_settings is not a known attribute of class <class 'azure.search.documents.indexes.models._index.SearchIndex'> and will be ignored
+2025-03-30 20:32:30,807 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-search-dev-docs.search.windows.net/indexes('openai-api-spec-index')?api-version=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '1874'
+    'api-key': 'REDACTED'
+    'Prefer': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=minimal'
+    'x-ms-client-request-id': 'c6d3885c-0de0-11f0-8f49-a1b1d3b1be14'
+    'User-Agent': 'azsdk-python-search-documents/11.4.0 Python/3.13.2 (macOS-15.3.1-arm64-arm-64bit-Mach-O)'
+A body is sent with the request
+2025-03-30 20:32:31,376 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 400
+Response headers:
+    'Content-Length': '128'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Content-Language': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'request-id': 'c6d3885c-0de0-11f0-8f49-a1b1d3b1be14'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Mon, 31 Mar 2025 03:32:31 GMT'
+2025-03-30 20:32:31,377 - __main__ - ERROR - Error creating search index: () The request is invalid. Details: vectorSearch.algorithms[0].kind : The kind field is required.
+Code: 
+Message: The request is invalid. Details: vectorSearch.algorithms[0].kind : The kind field is required.
+2025-03-30 20:32:31,379 - __main__ - ERROR - Failed to create Azure AI Search index: Error creating search index: () The request is invalid. Details: vectorSearch.algorithms[0].kind : The kind field is required.
+Code: 
+Message: The request is invalid. Details: vectorSearch.algorithms[0].kind : The kind field is required.

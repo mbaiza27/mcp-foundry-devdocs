@@ -1,0 +1,6 @@
+2025-03-30 19:54:57,988 - __main__ - INFO - Starting OpenAI API Specification Processor
+2025-03-30 19:54:57,989 - __main__ - INFO - Fetching OpenAI API specification
+2025-03-30 19:54:58,596 - __main__ - INFO - Successfully fetched API specification (version: 2.3.0)
+2025-03-30 19:54:58,597 - __main__ - INFO - Processing OpenAI API specification
+2025-03-30 19:54:58,599 - __main__ - INFO - Processed 576 documents
+2025-03-30 19:54:58,602 - __main__ - INFO - Process-only mode - exiting

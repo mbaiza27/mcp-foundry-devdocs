@@ -1,0 +1,31 @@
+2025-03-30 21:08:59,296 - __main__ - INFO - Starting OpenAI API Specification Processor
+2025-03-30 21:08:59,296 - __main__ - INFO - Creating/updating Azure AI Search index 'openai-api-spec-index'
+2025-03-30 21:08:59,302 - azure.search.documents.indexes._generated._serialization - WARNING - hnsw is not a known attribute of class <class 'azure.search.documents.indexes._generated.models._models_py3.VectorSearchAlgorithmConfiguration'> and will be ignored
+2025-03-30 21:08:59,303 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-search-dev-docs.search.windows.net/indexes('openai-api-spec-index')?api-version=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '2096'
+    'api-key': 'REDACTED'
+    'Prefer': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=minimal'
+    'x-ms-client-request-id': 'df458b1a-0de5-11f0-ac90-d14b2c903f8b'
+    'User-Agent': 'azsdk-python-search-documents/11.4.0 Python/3.13.2 (macOS-15.3.1-arm64-arm-64bit-Mach-O)'
+A body is sent with the request
+2025-03-30 21:08:59,858 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 400
+Response headers:
+    'Content-Length': '128'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Content-Language': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'request-id': 'df458b1a-0de5-11f0-ac90-d14b2c903f8b'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Mon, 31 Mar 2025 04:08:59 GMT'
+2025-03-30 21:08:59,859 - __main__ - ERROR - Error creating search index: () The request is invalid. Details: vectorSearch.algorithms[0].kind : The kind field is required.
+Code: 
+Message: The request is invalid. Details: vectorSearch.algorithms[0].kind : The kind field is required.
+2025-03-30 21:08:59,861 - __main__ - ERROR - Failed to create Azure AI Search index: Error creating search index: () The request is invalid. Details: vectorSearch.algorithms[0].kind : The kind field is required.
+Code: 
+Message: The request is invalid. Details: vectorSearch.algorithms[0].kind : The kind field is required.

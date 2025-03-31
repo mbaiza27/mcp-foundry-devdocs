@@ -1,0 +1,5 @@
+2025-03-30 21:08:13,627 - __main__ - INFO - Starting OpenAI API Specification Processor
+2025-03-30 21:08:13,627 - __main__ - INFO - Creating/updating Azure AI Search index 'openai-api-spec-index'
+2025-03-30 21:08:13,633 - azure.search.documents.indexes._generated._serialization - WARNING - hnsw is not a known attribute of class <class 'azure.search.documents.indexes._generated.models._models_py3.VectorSearchAlgorithmConfiguration'> and will be ignored
+2025-03-30 21:08:13,633 - __main__ - ERROR - Error creating search index: cannot import name 'SemanticSettings' from 'azure.search.documents.indexes.models' (/Users/marcbaiza/Code/mcp-foundry-devdocs/.venv/lib/python3.13/site-packages/azure/search/documents/indexes/models/__init__.py)
+2025-03-30 21:08:13,633 - __main__ - ERROR - Failed to create Azure AI Search index: Error creating search index: cannot import name 'SemanticSettings' from 'azure.search.documents.indexes.models' (/Users/marcbaiza/Code/mcp-foundry-devdocs/.venv/lib/python3.13/site-packages/azure/search/documents/indexes/models/__init__.py)

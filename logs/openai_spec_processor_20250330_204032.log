@@ -1,0 +1,4 @@
+2025-03-30 20:40:32,939 - __main__ - INFO - Starting OpenAI API Specification Processor
+2025-03-30 20:40:32,939 - __main__ - INFO - Creating/updating Azure AI Search index 'openai-api-spec-index'
+2025-03-30 20:40:32,945 - __main__ - ERROR - Error creating search index: Unable to get e_tag from the model
+2025-03-30 20:40:32,945 - __main__ - ERROR - Failed to create Azure AI Search index: Error creating search index: Unable to get e_tag from the model

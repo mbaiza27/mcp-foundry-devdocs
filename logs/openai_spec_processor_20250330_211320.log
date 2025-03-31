@@ -1,0 +1,33 @@
+2025-03-30 21:13:20,366 - __main__ - INFO - Starting OpenAI API Specification Processor
+2025-03-30 21:13:20,366 - __main__ - INFO - Creating/updating Azure AI Search index 'openai-api-spec-index'
+2025-03-30 21:13:20,372 - azure.search.documents.indexes._generated._serialization - WARNING - m is not a known attribute of class <class 'azure.search.documents.indexes._generated.models._models_py3.HnswAlgorithmConfiguration'> and will be ignored
+2025-03-30 21:13:20,372 - azure.search.documents.indexes._generated._serialization - WARNING - ef_construction is not a known attribute of class <class 'azure.search.documents.indexes._generated.models._models_py3.HnswAlgorithmConfiguration'> and will be ignored
+2025-03-30 21:13:20,372 - azure.search.documents.indexes._generated._serialization - WARNING - ef_search is not a known attribute of class <class 'azure.search.documents.indexes._generated.models._models_py3.HnswAlgorithmConfiguration'> and will be ignored
+2025-03-30 21:13:20,372 - azure.search.documents.indexes._generated._serialization - WARNING - metric is not a known attribute of class <class 'azure.search.documents.indexes._generated.models._models_py3.HnswAlgorithmConfiguration'> and will be ignored
+2025-03-30 21:13:20,373 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-search-dev-docs.search.windows.net/indexes('openai-api-spec-index')?api-version=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '2112'
+    'api-key': 'REDACTED'
+    'Prefer': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=minimal'
+    'x-ms-client-request-id': '7ae1a0c2-0de6-11f0-921e-4f0a6f028cf8'
+    'User-Agent': 'azsdk-python-search-documents/11.4.0 Python/3.13.2 (macOS-15.3.1-arm64-arm-64bit-Mach-O)'
+A body is sent with the request
+2025-03-30 21:13:21,286 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=minimal; odata.streaming=true; charset=utf-8'
+    'ETag': '"0x8DD700A5F8EA145"'
+    'Location': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '7ae1a0c2-0de6-11f0-921e-4f0a6f028cf8'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Mon, 31 Mar 2025 04:13:21 GMT'
+2025-03-30 21:13:21,288 - __main__ - INFO - Index openai-api-spec-index created or updated
+2025-03-30 21:13:21,290 - __main__ - INFO - Azure AI Search index creation/update complete
+2025-03-30 21:13:21,290 - __main__ - INFO - OpenAI API Specification Processor completed successfully

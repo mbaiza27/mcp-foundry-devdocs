@@ -1,0 +1,30 @@
+2025-03-30 20:36:44,937 - __main__ - INFO - Starting OpenAI API Specification Processor
+2025-03-30 20:36:44,937 - __main__ - INFO - Creating/updating Azure AI Search index 'openai-api-spec-index'
+2025-03-30 20:36:44,944 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-search-dev-docs.search.windows.net/indexes('openai-api-spec-index')?api-version=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '1874'
+    'api-key': 'REDACTED'
+    'Prefer': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=minimal'
+    'x-ms-client-request-id': '5e4dd764-0de1-11f0-85a2-bd758e6eb94b'
+    'User-Agent': 'azsdk-python-search-documents/11.4.0 Python/3.13.2 (macOS-15.3.1-arm64-arm-64bit-Mach-O)'
+A body is sent with the request
+2025-03-30 20:36:45,416 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 400
+Response headers:
+    'Content-Length': '128'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Content-Language': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'request-id': '5e4dd764-0de1-11f0-85a2-bd758e6eb94b'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Mon, 31 Mar 2025 03:36:45 GMT'
+2025-03-30 20:36:45,417 - __main__ - ERROR - Error creating search index: () The request is invalid. Details: vectorSearch.algorithms[0].kind : The kind field is required.
+Code: 
+Message: The request is invalid. Details: vectorSearch.algorithms[0].kind : The kind field is required.
+2025-03-30 20:36:45,419 - __main__ - ERROR - Failed to create Azure AI Search index: Error creating search index: () The request is invalid. Details: vectorSearch.algorithms[0].kind : The kind field is required.
+Code: 
+Message: The request is invalid. Details: vectorSearch.algorithms[0].kind : The kind field is required.

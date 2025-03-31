@@ -1,0 +1,7 @@
+2025-03-30 20:16:50,181 - __main__ - INFO - Starting OpenAI API Specification Processor
+2025-03-30 20:16:50,181 - __main__ - INFO - Fetching OpenAI API specification
+2025-03-30 20:16:50,998 - __main__ - INFO - Successfully fetched API specification (version: 2.3.0)
+2025-03-30 20:16:50,998 - __main__ - INFO - Processing OpenAI API specification
+2025-03-30 20:16:51,001 - __main__ - INFO - Processed 576 documents
+2025-03-30 20:16:51,001 - __main__ - INFO - Generating embeddings for documents
+2025-03-30 20:16:51,001 - __main__ - ERROR - Error processing OpenAI API specification: name 'generate_embeddings' is not defined
