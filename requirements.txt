@@ -1,0 +1,7 @@
+requests==2.31.0
+PyYAML==6.0.1
+python-dotenv==1.0.0
+azure-storage-blob==12.18.3
+azure-search-documents==11.4.0
+azure-identity==1.14.1
+tqdm==4.66.1
